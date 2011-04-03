@@ -1,16 +1,19 @@
 {
-  "name": "connect-analytics",
+  "name":        "connect-analytics",
   "description": "Connect middleware for google analytics (uproxies req.end))",
-  "version": "0.0.1",
-  "repository": {
-    "url": ""
-  },
-  "author": "Francois Lafortune <code@quickredfox.at> (http://about.me/quickredfox)",
-  "directories": {
-    "lib": "."
-  },
+  "version":     "0.0.1",
+  "author":      "Francois Lafortune <code@quickredfox.at> (http://about.me/quickredfox)",
+  "directories": { "lib": "." },
+  "main": "lib/app",
   "engines": {
-    "node": ">=0.4.2",
-    "connect": ">=1.1.5"
+    "node":    ">=0.4.2"
+  },
+  "dependencies": {
+    "connect": ">=1.2.1"
+  },
+  "repository": {
+      "type":    "git",
+      "url":     "git://github.com/quickredfox/connect-analytics.git",
+      "private": "git@github.com:quickredfox/connect-analytics.git"
   }
 }
